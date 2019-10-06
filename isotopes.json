@@ -1,8 +1,103 @@
 {
+	"Bi210": {
+	  	"daughters": {
+			"Po210": 1,
+			"Tl206": 1.32e-6
+		},
+		"half-life": [5.012, "d"]
+	},
+	"Bi214": {
+	  	"daughters": {
+			"Po214": 0.9997,
+			"Tl210": 2.1e-4,
+			"Pb210": 3e-5
+		},
+		"half-life": [19.9, "min"]
+	},
 	"C14": {
 	  	"daughters": {
 			"N14": 1
 		},
 		"half-life": [5730, "yr"]
+	},
+	"Pa234m": {
+	  	"daughters": {
+			"U234": 0.9983,
+			"Pa234": 1.6e-3
+		},
+		"half-life": [1.17, "min"]
+	},
+	"Pb210": {
+	  	"daughters": {
+			"Bi210": 1,
+			"Hg206": 1.9e-8
+		},
+		"half-life": [22.3, "yr"]
+	},
+	"Pb214": {
+	  	"daughters": {
+			"Bi214": 1
+		},
+		"half-life": [26.8, "min"]
+	},
+	"Po210": {
+	  	"daughters": {
+			"Pb206": 1
+		},
+		"half-life": [138.376, "d"]
+	},
+	"Po214": {
+	  	"daughters": {
+			"Pb210": 1
+		},
+		"half-life": [1.643e-4, "s"]
+	},
+	"Po218": {
+	  	"daughters": {
+			"Pb214": 0.9998,
+			"At218": 2e-4
+		},
+		"half-life": [3.1, "min"]
+	},
+	"Ra226": {
+	  	"daughters": {
+			"Rn222": 1,
+			"Pb212": 2.6e-11
+		},
+		"half-life": [1600, "yr"]
+	},
+	"Rn222": {
+	  	"daughters": {
+			"Po218": 1
+		},
+		"half-life": [3.8235, "d"]
+	},
+	"Th230": {
+	  	"daughters": {
+			"Ra226": 1,
+			"Hg206": 5.6e-13
+		},
+		"half-life": [7.538e4, "yr"]
+	},
+	"Th234": {
+	  	"daughters": {
+			"Pa234m": 1
+		},
+		"half-life": [24.10, "d"]
+	},
+	"U234": {
+	  	"daughters": {
+			"Th230": 1,
+			"Hg206": 1.4e-13,
+			"Hf184": 9e-14
+		},
+		"half-life": [2.455e5, "yr"]
+	},
+	"U238": {
+	  	"daughters": {
+			"Th234": 1,
+			"Pu238": 2.19e-10
+		},
+		"half-life": [4.468e9, "yr"]
 	}
 }

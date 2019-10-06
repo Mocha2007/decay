@@ -13,8 +13,15 @@ colors = [
 	'yellow',
 	'green',
 	'blue',
+	'purple',
+	'pink',
+	'brown',
 ]
 units = {
+	'd': 24 * 60 * 60,
+	'h': 60 * 60,
+	'min': 60,
+	's': 1,
 	'yr': 365.2425 * 24 * 60 * 60,
 }
 
@@ -65,13 +72,16 @@ print('Begin Plot')
 
 # PLOT 1
 plot1 = fig.add_subplot(1, 1, 1)
+# SERIES
+# C14, U238
 seeds = {
-	'C14': 1
+	'U238': 1
 }
-step_size = units['yr'] * 100
-steps = 100
+duration = units['yr'] * 1e10 # 10 byr
+divisions = 1000
+step_size = duration/divisions
 record = {}
-for step in range(steps):
+for step in range(divisions):
 	# record data
 	x = step * step_size
 	for isotope, y in seeds.items():
