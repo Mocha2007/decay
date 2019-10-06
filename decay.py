@@ -7,7 +7,7 @@ from random import choice, seed
 plt.rcParams.update({'font.size': 8})
 
 isotope_data = load(open('isotopes.json', 'r', encoding='utf-8'))
-colors = [
+colors = [ # from matplotlib.colors import cnames
 	'red',
 	'orange',
 	'yellow',
@@ -16,6 +16,8 @@ colors = [
 	'purple',
 	'pink',
 	'brown',
+	'grey',
+	'black',
 ]
 units = {
 	'd': 24 * 60 * 60,
@@ -73,11 +75,11 @@ print('Begin Plot')
 # PLOT 1
 plot1 = fig.add_subplot(1, 1, 1)
 # SERIES
-# C14, U238
+# C14, U238, Pu244
 seeds = {
-	'U238': 1
+	'Pu244': 1
 }
-duration = units['yr'] * 1e10 # 10 byr
+duration = units['yr'] * 1e9 # 1 byr
 divisions = 1000
 step_size = duration/divisions
 record = {}

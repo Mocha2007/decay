@@ -1,9 +1,22 @@
 {
+	"Ac228": {
+	  	"daughters": {
+			"Th228": 1
+		},
+		"half-life": [6.13, "h"]
+	},
 	"Bi210": {
 	  	"daughters": {
 			"Po210": 1
 		},
 		"half-life": [5.012, "d"]
+	},
+	"Bi212": {
+	  	"daughters": {
+			"Po212": 0.6405,
+			"Tl208": 0.3594
+		},
+		"half-life": [60.55, "min"]
 	},
 	"Bi214": {
 	  	"daughters": {
@@ -17,6 +30,12 @@
 		},
 		"half-life": [5730, "yr"]
 	},
+	"Np240": {
+	  	"daughters": {
+			"Pu240": 1
+		},
+		"half-life": [61.9, "min"]
+	},
 	"Pa234m": {
 	  	"daughters": {
 			"U234": 0.9983
@@ -28,6 +47,12 @@
 			"Bi210": 1
 		},
 		"half-life": [22.3, "yr"]
+	},
+	"Pb212": {
+	  	"daughters": {
+			"Bi212": 1
+		},
+		"half-life": [10.64, "h"]
 	},
 	"Pb214": {
 	  	"daughters": {
@@ -41,11 +66,23 @@
 		},
 		"half-life": [138.376, "d"]
 	},
+	"Po212": {
+	  	"daughters": {
+			"Pb208": 1
+		},
+		"half-life": [2.99e-7, "s"]
+	},
 	"Po214": {
 	  	"daughters": {
 			"Pb210": 1
 		},
 		"half-life": [1.643e-4, "s"]
+	},
+	"Po216": {
+	  	"daughters": {
+			"Pb212": 1
+		},
+		"half-life": [1.45e-1, "s"]
 	},
 	"Po218": {
 	  	"daughters": {
@@ -53,11 +90,41 @@
 		},
 		"half-life": [3.1, "min"]
 	},
+	"Pu240": {
+	  	"daughters": {
+			"U236": 1
+		},
+		"half-life": [6561, "yr"]
+	},
+	"Pu244": {
+	  	"daughters": {
+			"U240": 0.9988
+		},
+		"half-life": [8.00e7, "yr"]
+	},
+	"Ra224": {
+	  	"daughters": {
+			"Rn220": 1
+		},
+		"half-life": [3.6319, "d"]
+	},
 	"Ra226": {
 	  	"daughters": {
 			"Rn222": 1
 		},
 		"half-life": [1600, "yr"]
+	},
+	"Ra228": {
+	  	"daughters": {
+			"Th228": 1
+		},
+		"half-life": [6.13, "h"]
+	},
+	"Rn220": {
+	  	"daughters": {
+			"Po216": 1
+		},
+		"half-life": [55.6, "s"]
 	},
 	"Rn222": {
 	  	"daughters": {
@@ -65,11 +132,23 @@
 		},
 		"half-life": [3.8235, "d"]
 	},
+	"Th228": {
+	  	"daughters": {
+			"Ra224": 1
+		},
+		"half-life": [1.9116, "yr"]
+	},
 	"Th230": {
 	  	"daughters": {
 			"Ra226": 1
 		},
 		"half-life": [7.538e4, "yr"]
+	},
+	"Th232": {
+	  	"daughters": {
+			"Ra228": 1
+		},
+		"half-life": [1.405e10, "yr"]
 	},
 	"Th234": {
 	  	"daughters": {
@@ -77,16 +156,34 @@
 		},
 		"half-life": [24.10, "d"]
 	},
+	"Tl208": {
+	  	"daughters": {
+			"Pb208": 1
+		},
+		"half-life": [3.053, "min"]
+	},
 	"U234": {
 	  	"daughters": {
 			"Th230": 1
 		},
 		"half-life": [2.455e5, "yr"]
 	},
+	"U236": {
+	  	"daughters": {
+			"Th232": 1
+		},
+		"half-life": [2.342e7, "yr"]
+	},
 	"U238": {
 	  	"daughters": {
 			"Th234": 1
 		},
 		"half-life": [4.468e9, "yr"]
+	},
+	"U240": {
+	  	"daughters": {
+			"Np240": 1
+		},
+		"half-life": [14.1, "h"]
 	}
 }
