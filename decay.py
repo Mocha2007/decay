@@ -79,7 +79,7 @@ plot1 = fig.add_subplot(1, 1, 1)
 seeds = {
 	'Pu244': 1
 }
-duration = units['yr'] * 1e9 # 1 byr
+duration = units['yr'] * 4.54e9 # Age of the Earth = 4.54 byr
 divisions = 1000
 step_size = duration/divisions
 record = {}
@@ -97,7 +97,7 @@ for step in range(divisions):
 isotope_colors = {}
 for isotope, points in record.items():
 	x, y = zip(*points)
-	print(isotope, type(isotope))
+	# print(isotope, type(isotope))
 	seed(isotope)
 	color = choice(colors)
 	plt.plot(x, y, color=color)
