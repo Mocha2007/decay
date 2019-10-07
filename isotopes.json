@@ -1,4 +1,11 @@
 {
+	"Ac227": {
+	  	"daughters": {
+			"Th227": 0.9861,
+			"Fr223": 0.0138
+		},
+		"half-life": [21.772, "yr"]
+	},
 	"Ac228": {
 	  	"daughters": {
 			"Th228": 1
@@ -10,6 +17,12 @@
 			"Po210": 1
 		},
 		"half-life": [5.012, "d"]
+	},
+	"Bi211": {
+	  	"daughters": {
+			"Tl207": 0.9972
+		},
+		"half-life": [2.14, "min"]
 	},
 	"Bi212": {
 	  	"daughters": {
@@ -30,11 +43,23 @@
 		},
 		"half-life": [5730, "yr"]
 	},
+	"Fr223": {
+	  	"daughters": {
+			"Ra223": 0.9999
+		},
+		"half-life": [22, "min"]
+	},
 	"Np240": {
 	  	"daughters": {
 			"Pu240": 1
 		},
 		"half-life": [61.9, "min"]
+	},
+	"Pa231": {
+	  	"daughters": {
+			"Ac227": 1
+		},
+		"half-life": [3.276e4, "yr"]
 	},
 	"Pa234m": {
 	  	"daughters": {
@@ -47,6 +72,12 @@
 			"Bi210": 1
 		},
 		"half-life": [22.3, "yr"]
+	},
+	"Pb211": {
+	  	"daughters": {
+			"Bi211": 1
+		},
+		"half-life": [36.1, "min"]
 	},
 	"Pb212": {
 	  	"daughters": {
@@ -78,6 +109,12 @@
 		},
 		"half-life": [1.643e-4, "s"]
 	},
+	"Po215": {
+	  	"daughters": {
+			"Pb211": 0.9999
+		},
+		"half-life": [1.781e-3, "s"]
+	},
 	"Po216": {
 	  	"daughters": {
 			"Pb212": 1
@@ -102,6 +139,12 @@
 		},
 		"half-life": [8.00e7, "yr"]
 	},
+	"Ra223": {
+	  	"daughters": {
+			"Rn219": 1
+		},
+		"half-life": [11.43, "d"]
+	},
 	"Ra224": {
 	  	"daughters": {
 			"Rn220": 1
@@ -120,6 +163,12 @@
 		},
 		"half-life": [6.13, "h"]
 	},
+	"Rn219": {
+	  	"daughters": {
+			"Po215": 1
+		},
+		"half-life": [3.96, "s"]
+	},
 	"Rn220": {
 	  	"daughters": {
 			"Po216": 1
@@ -131,6 +180,12 @@
 			"Po218": 1
 		},
 		"half-life": [3.8235, "d"]
+	},
+	"Th227": {
+	  	"daughters": {
+			"Ra223": 1
+		},
+		"half-life": [18.68, "d"]
 	},
 	"Th228": {
 	  	"daughters": {
@@ -144,6 +199,12 @@
 		},
 		"half-life": [7.538e4, "yr"]
 	},
+	"Th231": {
+	  	"daughters": {
+			"Pa231": 1
+		},
+		"half-life": [25.5, "h"]
+	},
 	"Th232": {
 	  	"daughters": {
 			"Ra228": 1
@@ -156,6 +217,12 @@
 		},
 		"half-life": [24.10, "d"]
 	},
+	"Tl207": {
+	  	"daughters": {
+			"Pb207": 1
+		},
+		"half-life": [4.77, "min"]
+	},
 	"Tl208": {
 	  	"daughters": {
 			"Pb208": 1
@@ -167,6 +234,12 @@
 			"Th230": 1
 		},
 		"half-life": [2.455e5, "yr"]
+	},
+	"U235": {
+	  	"daughters": {
+			"Th231": 1
+		},
+		"half-life": [7.04e8, "yr"]
 	},
 	"U236": {
 	  	"daughters": {

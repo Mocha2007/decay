@@ -75,9 +75,9 @@ print('Begin Plot')
 # PLOT 1
 plot1 = fig.add_subplot(1, 1, 1)
 # SERIES
-# C14, U238, Pu244
+# C14, U235, U238, Pu244
 seeds = {
-	'Pu244': 1
+	'U235': 1
 }
 duration = units['yr'] * 4.54e9 # Age of the Earth = 4.54 byr
 divisions = 1000
